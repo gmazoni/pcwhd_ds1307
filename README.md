@@ -4,6 +4,7 @@ PCWHD Compiler schematic to communicate with DS1307 RTC
 Example of usage:
 
 #define RTC_SDA PIN_B0
+
 #define RTC_SCL PIN_B1
 
 char dds_e[8][4] = {"","Seg","Ter","Qua","Qui","Sex","Sab","Dom"};
